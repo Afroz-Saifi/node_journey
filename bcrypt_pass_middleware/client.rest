@@ -1,0 +1,9 @@
+### register user
+POST http://localhost:4500/register
+Content-Type: "application/json"
+{
+    "name": "Afroz Khan",
+    "email": "afroz@gmail.com",
+    "password": "afroz",
+    "role": "Super Admin"
+}

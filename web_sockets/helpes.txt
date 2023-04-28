@@ -1,0 +1,7 @@
+use node events ?
+// const { EventEmitter } = require("events");
+// const player = new EventEmitter();
+// player.on("shot", (name, enemy, damage) => {
+//   console.log(`${name} shot ${enemy} and gives ${damage} of damage`);
+// });
+// player.emit("shot", "afroz", "ravish", 32)  // ===> "afroz shot ravish and gives 32 of damage"

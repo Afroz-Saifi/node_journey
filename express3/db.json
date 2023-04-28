@@ -1,0 +1,17 @@
+{
+    "phones": [
+        {
+            "model": "oppo f19s",
+            "price": 20000
+        },
+        {
+            "model": "redmi 9 power",
+            "price": 14600
+        },
+        {
+            "model": "oneplus nord12",
+            "price": 40000
+        }
+    ],
+    "laptops": []
+}

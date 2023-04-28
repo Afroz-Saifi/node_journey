@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        /* margin: auto; */
+        border: 1px solid red;
+        width: 500px;
+        height: 200px;
+        padding-left: 50px;
+        background-color: red;
+        /* z-index: 999; */
+      }
+      .box {
+        width: 500px;
+        height: 400px;
+        background-color: aqua;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p>this is box</p>
+    </div>
+    <div class="box"></div>
+
+    <script>
+      let url = "http://localhost:1200/movies?title=man&rating=8";
+      fetch(url)
+        .then((req) => req.json())
+        .then((res) => console.log(res));
+    </script>
+  </body>
+</html>
