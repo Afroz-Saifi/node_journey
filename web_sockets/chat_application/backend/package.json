@@ -1,5 +1,5 @@
 {
-  "name": "chat_application",
+  "name": "backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,12 +13,5 @@
     "express": "^4.18.2",
     "nodemon": "^2.0.22",
     "socket.io": "^4.6.1"
-  },
-  "devDependencies": {
-    "eslint": "^8.39.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-n": "^15.7.0",
-    "eslint-plugin-promise": "^6.1.1"
   }
 }
